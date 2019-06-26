@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>edb0dab7-b801-4886-a530-7a4641208b05</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <StartupFile>module7.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,10 +25,24 @@
     <Compile Include="module2.py" />
     <Compile Include="module3.py" />
     <Compile Include="module4.py" />
+    <Compile Include="module5.py" />
+    <Compile Include="module6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module7.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonApplication1.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BI.pbix" />
     <Content Include="data.sql" />
+    <Content Include="images\Figure_1.png" />
+    <Content Include="images\Figure_2.png" />
+    <Content Include="images\Figure_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
